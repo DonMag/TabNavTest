@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XvO-V4-uRC">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2fs-ME-P5w">
+            <objects>
+                <viewController id="UAh-0w-eBo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9bN-1W-JYt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hys-Jy-uev">
+                                <rect key="frame" x="110.33333333333333" y="183" width="172.66666666666669" height="191"/>
+                                <string key="text">Tab 1
+VC A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0a-Yd-2LJ">
+                                <rect key="frame" x="159" y="474" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <segue destination="7Aa-yu-ojk" kind="show" id="WPl-fI-l2R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="U7k-3X-aVp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hys-Jy-uev" firstAttribute="top" secondItem="U7k-3X-aVp" secondAttribute="top" constant="80" id="Q8d-AN-BJA"/>
+                            <constraint firstItem="b0a-Yd-2LJ" firstAttribute="centerX" secondItem="9bN-1W-JYt" secondAttribute="centerX" id="eUy-o1-TGO"/>
+                            <constraint firstItem="b0a-Yd-2LJ" firstAttribute="top" secondItem="Hys-Jy-uev" secondAttribute="bottom" constant="100" id="ncu-je-Wro"/>
+                            <constraint firstItem="Hys-Jy-uev" firstAttribute="centerX" secondItem="9bN-1W-JYt" secondAttribute="centerX" id="yIb-oR-Gme"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VSy-dQ-wKv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A87-gG-5DZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-30" y="546"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fk6-4r-egA">
+            <objects>
+                <viewController id="kDM-aC-kYo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Dh-0j-5aj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aO-yg-q1e">
+                                <rect key="frame" x="108.33333333333333" y="183" width="176.66666666666669" height="191"/>
+                                <string key="text">Tab 1
+VC C</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wlu-KU-8jM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6aO-yg-q1e" firstAttribute="centerX" secondItem="1Dh-0j-5aj" secondAttribute="centerX" id="MP6-H6-htq"/>
+                            <constraint firstItem="6aO-yg-q1e" firstAttribute="top" secondItem="Wlu-KU-8jM" secondAttribute="top" constant="80" id="cR2-JF-hft"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tba-KD-G1P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PVt-ZR-Q6M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1573" y="546"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Dv-8W-wJM">
+            <objects>
+                <viewController id="7Aa-yu-ojk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1wf-Hj-4WV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkT-Ws-4yG">
+                                <rect key="frame" x="110.33333333333333" y="183" width="172.33333333333337" height="191"/>
+                                <string key="text">Tab 1
+VC B</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3VC-0n-wNw">
+                                <rect key="frame" x="159" y="474" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <segue destination="kDM-aC-kYo" kind="show" id="8dG-8C-RNg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sLy-Q9-pxQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3VC-0n-wNw" firstAttribute="top" secondItem="GkT-Ws-4yG" secondAttribute="bottom" constant="100" id="PCN-cd-m52"/>
+                            <constraint firstItem="3VC-0n-wNw" firstAttribute="centerX" secondItem="1wf-Hj-4WV" secondAttribute="centerX" id="R0U-7a-kRa"/>
+                            <constraint firstItem="GkT-Ws-4yG" firstAttribute="top" secondItem="sLy-Q9-pxQ" secondAttribute="top" constant="80" id="SQF-Hz-iLL"/>
+                            <constraint firstItem="GkT-Ws-4yG" firstAttribute="centerX" secondItem="1wf-Hj-4WV" secondAttribute="centerX" id="YYl-Ie-8CE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PNt-CB-wtd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cNC-LL-vd4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="546"/>
+        </scene>
+        <!--My Tab Bar Controller-->
+        <scene sceneID="FHI-Ad-BNe">
+            <objects>
+                <tabBarController id="XvO-V4-uRC" customClass="MyTabBarController" customModule="TabNavTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="daE-QS-YZU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="b8K-7j-0bW" kind="relationship" relationship="viewControllers" id="ywd-Dg-XmY"/>
+                        <segue destination="JRV-9n-IXI" kind="relationship" relationship="viewControllers" id="XV3-bi-To4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NXU-Y2-IqK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1764" y="851"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MNf-Rn-18M">
+            <objects>
+                <viewController id="xdE-uf-HRE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VB3-d4-ern">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YlZ-te-aCl">
+                                <rect key="frame" x="105.33333333333333" y="183" width="182.33333333333337" height="191"/>
+                                <string key="text">Tab 2
+VC A</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45u-EM-ye0">
+                                <rect key="frame" x="159" y="474" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <segue destination="SV7-Pm-ocV" kind="show" id="Blk-aj-Ynr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sNk-nH-jMT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YlZ-te-aCl" firstAttribute="top" secondItem="sNk-nH-jMT" secondAttribute="top" constant="80" id="K9R-iJ-y7L"/>
+                            <constraint firstItem="45u-EM-ye0" firstAttribute="top" secondItem="YlZ-te-aCl" secondAttribute="bottom" constant="100" id="PfT-hn-mrN"/>
+                            <constraint firstItem="YlZ-te-aCl" firstAttribute="centerX" secondItem="VB3-d4-ern" secondAttribute="centerX" id="Wtu-1E-Iy7"/>
+                            <constraint firstItem="45u-EM-ye0" firstAttribute="centerX" secondItem="VB3-d4-ern" secondAttribute="centerX" id="ctz-PK-0At"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lIe-EL-vPM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NSP-GL-Rh5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31" y="1237"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rWM-1B-DHz">
+            <objects>
+                <viewController id="SV7-Pm-ocV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dp2-pS-tw5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsc-3o-0yw">
+                                <rect key="frame" x="105.33333333333333" y="183" width="182.33333333333337" height="191"/>
+                                <string key="text">Tab 2
+VC B</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFV-6f-5Za">
+                                <rect key="frame" x="159" y="474" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <segue destination="9Im-eT-fro" kind="show" id="aXE-2a-m3V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vO8-oa-zTG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hsc-3o-0yw" firstAttribute="centerX" secondItem="Dp2-pS-tw5" secondAttribute="centerX" id="D9p-hX-Kks"/>
+                            <constraint firstItem="yFV-6f-5Za" firstAttribute="top" secondItem="Hsc-3o-0yw" secondAttribute="bottom" constant="100" id="cDw-fT-4Oh"/>
+                            <constraint firstItem="Hsc-3o-0yw" firstAttribute="top" secondItem="vO8-oa-zTG" secondAttribute="top" constant="80" id="xEX-CG-Mdi"/>
+                            <constraint firstItem="yFV-6f-5Za" firstAttribute="centerX" secondItem="Dp2-pS-tw5" secondAttribute="centerX" id="zfH-EI-TWL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eFT-Rv-7vh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3eo-vl-ilx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="784" y="1237"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Lf-RL-fDM">
+            <objects>
+                <viewController id="9Im-eT-fro" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jLk-NM-pKx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVA-bN-Xhs">
+                                <rect key="frame" x="105.33333333333333" y="183" width="182.33333333333337" height="191"/>
+                                <string key="text">Tab 2
+VC C</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hIc-A4-ZX6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UVA-bN-Xhs" firstAttribute="top" secondItem="hIc-A4-ZX6" secondAttribute="top" constant="80" id="KlC-lF-bR0"/>
+                            <constraint firstItem="UVA-bN-Xhs" firstAttribute="centerX" secondItem="jLk-NM-pKx" secondAttribute="centerX" id="WWW-Ni-3Y8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8mZ-CB-zQA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8cf-ZS-Bxt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1572" y="1237"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="mSD-x1-RZb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b8K-7j-0bW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="mbx-ls-AIe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8EP-il-usj">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UAh-0w-eBo" kind="relationship" relationship="rootViewController" id="MAU-8c-a18"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o86-UX-CdM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-860.30534351145036" y="546.47887323943667"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="8Wk-zr-393">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JRV-9n-IXI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" id="CJf-rd-jOa"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uvM-z6-rEJ">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xdE-uf-HRE" kind="relationship" relationship="rootViewController" id="3AQ-Tn-Fmi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENQ-Q7-1As" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-860" y="1237"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
